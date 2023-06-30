@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style2.css">
     <script src="script/footer.js"></script>
-
+    <script src="script/confirmar.js"></script>
     <link rel="stylesheet" href="css/style2.css">
 
     <link rel="stylesheet" href="css/legales.css">
@@ -126,21 +126,21 @@
             
             <div>
                 <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text">
+                    <label for="nombre" >Nombre</label>
+                    <input type="text" id="nombre">
                     <label for="apellido">Apellido</label>
-                    <input type="text">
+                    <input type="text" id="apellido">
                     <label for="">Email</label>
-                    <input type="email"  placeholder="nombre@gmail.com" required>
+                    <input type="email" id="email"  placeholder="nombre@gmail.com" >
                 </div>
                 <div>
-                    <label for="exampleFormControlTextarea1">Detallanos tu reclamo</label>
+                    <label for="textArea">Detallanos tu reclamo</label>
                 </div>
                 <div>
-                    <textarea id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    <textarea id="textArea" rows="3" ></textarea>
                 </div>
                 <div>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" onclick="validar()">Enviar</button>
                 </div>
             </div>
         </form>

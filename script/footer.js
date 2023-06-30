@@ -15,3 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+function mostrarAlert() {
+    alert("Formulario enviado con éxito.");
+  }
