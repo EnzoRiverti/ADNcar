@@ -1,0 +1,66 @@
+:root {
+    --primario: #aa0101;
+    --primarioOscuro: #69140f;
+    --secundario: ;
+    --grisOscuro: #666666;
+    --blanco: #FFF;
+    --negro: #000;
+
+    
+}
+
+form legend{
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+form label{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: block;
+}
+
+main{
+    padding: 120px 60px 180px;
+}
+
+fieldset{
+    width: 1000px;
+    margin: 0 auto;
+    border-color: var(--primarioOscuro);
+    border-width: 10px;
+}
+
+.button{
+    height: 30px;
+    width: 300px;
+    margin: 10px auto 10px 720px;
+    background-color: var(--primario);
+    color: var(--blanco);
+    font-weight: bold;
+    border: none;
+}
+
+.button:hover{
+    background-color: var(--primarioOscuro);
+    cursor: pointer;
+}
+
+#opcion-telefono{
+    display: none;
+}
+
+h2{
+    padding-left: 350px;
+}
+
+.barra-lateral {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 180px; 
+    background-color: var(--primarioOscuro); 
+    z-index: -1; 
+  }

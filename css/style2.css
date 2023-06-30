@@ -1,0 +1,168 @@
+header {
+    background-color: var(--primario);
+    align-items:center;
+    padding: 10px;
+    width: 100%;
+    display:flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  :root {
+    --primario: #aa0101;
+    --primarioOscuro: #69140f;
+    --secundario: ;
+    --grisOscuro: #666666;
+    --blanco: #FFF;
+    --negro: #000;
+
+    
+}
+
+  body{
+    background-color: var(--blanco);
+  }
+  
+  nav {
+    text-align: left;
+    
+    display: flex;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 100px;
+    display: inline-block;
+    
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--negro);
+    font-size: 14px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  #logoADN{
+    width: 80px;
+    height: auto;
+  }
+
+  main{
+   font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   line-height: 1.5rem;
+  }
+  footer {
+    color: rgb(231, 219, 200);
+    background-color: var(--negro);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px 2px 10px var(--blanco);
+    background-color: var(--negro);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+  #imgfb, #imginst{
+    width: 20px;
+  }
+
+  nav.menu p{
+    padding: 5px 80px;
+  }
+
+  .barra-lateral {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50px; 
+    background-color: var(--primarioOscuro); 
+    z-index: -1; 
+  }
+  
+  .izquierda {
+    left: 0;
+  }
+  
+  .derecha {
+    right: 0;
+  }
+  
+  .sobre-nosotros {
+    align-items: center;
+    padding-top: 150px; 
+    padding-left: 60px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    margin-left: 50px;
+}
+
+.citroen {
+
+    margin-right: 50px;
+}
+
+
+.sobre-personal {
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    margin-left: 50px;
+}
+
+.foto-personal {
+    padding-left: 60px;
+    margin-right: 50px;
+}
+
+fieldset{
+  width: 1000px;
+  margin: 0 auto;
+  border-color: var(--primarioOscuro);
+  border-width: 10px;
+}
+
+
+
+  
+
+  
+  

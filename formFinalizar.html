@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/form.css">
+    
+    <script src="script/footer.js"></script>
+    <script src="script/formPago.js"></script>
+    <title>ADNcar</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img id="logoADN"
+                src="https://firebasestorage.googleapis.com/v0/b/imagenes-desarrollo.appspot.com/o/11ad7e85-544a-453a-8754-864a26e9dda9.jpg?alt=media&token=2a7e6e76-0568-4a29-bfdd-a5ef7e8c75f6">
+        </div>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index2.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="servicios.html">SERVICIOS</a>
+                </li>
+                <li>
+                    <a href="productos.html">PRODUCTOS</a>
+                </li>
+                <li>
+                    <a href="legales.html">CONTACTANOS</a>
+                </li>
+                <li>
+                    <a href="aliados.html">ALIADOS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Rellena el formulario para finalizar la compra</h2>
+
+        <form id="fomulario" class="form" action="confirmar.html" method="get" onsubmit="return false;">
+
+            <fieldset>
+                <legend>Envio</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email">
+
+                <label for="documento">Numero de Documento</label>
+                <input type="text" id="ndocumento" name="ndocumento">
+
+                <label for="dirección">Direccion</label>
+                <input type="text" id="direccion" name="direccion">
+
+                <label for="Localidad">Localidad</label>
+                <input type="text" id="localidad" name="localidad">
+                
+                <label for="codigoPostal">Codigo Postal</label>
+                <input type="text" id="codigoPostal" name="codigoPostal">
+
+            </fieldset>
+            <fieldset>
+                <legend>Informacion de Pago</legend>
+                <label for="numeroTarjeta">Numero de tarjeta:</label>
+                <input type="text" id="nroTarjeta" name="nroTarjeta">
+                
+                <label for="nombreTarget">Nombre del titular</label>
+                <input type="text" id="nombreTarget" name="nombreTarget" placeholder="Como aparece en la tarjeta">
+                
+                <label for="CVV">Codigo de seguridad:</label>
+                <input type="text" id="CVV" name="CVV">
+
+                <label for="fecha_vencimiento">Fecha de Vencimiento:</label>
+                <input type="text" id="mesVen" name="mes" placeholder="Mes">
+                <input type="text" id="anioVen" name="anio" placeholder="Año">
+
+                <label for="dirección">Direccion</label>
+                <input type="text" id="direccionP" name="direccion">
+
+                <label for="LocalidadT">Localidad</label>
+                <input type="text" id="localidadT" name="localidadT">
+                
+                
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="button" onclick="validar()">
+            </form>
+</main>
+    
+        <div class="barra-lateral izquierda"></div>
+        <div class="barra-lateral derecha"></div>
+    <footer>
+        <section>
+            <nav class="menu">
+                <p>ATENCIÓN CLIENTE</p>
+                <p>De 9 a 13hs y de 16 a 20hs de lun a vie.<br>Sabados de 9 a 13hs.</p>
+                <p>Buenos Aires Sur 1050, Plottier</p>
+                <p>(299)numero de telefono<br>(299)numero de telefono2</p>
+            </nav>
+        </section>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook.png" alt="Facebook"
+                    id="imgfb"></a>
+            <a href="https://instagram.com/" target="_blank"><img src="Images/instagram.png" alt="Instagram"
+                    id="imginst"></a>
+        </div>
+        <p>Enzo Riverti| TpFinal Estatica | © 2023</p>
+    </footer>
+
+</body>
+
+</html>

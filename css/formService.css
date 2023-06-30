@@ -1,0 +1,67 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    padding: 0px 60px;
+    margin: auto;
+
+  }
+  
+  #miFormulario label,
+  #miFormulario input,
+  #miFormulario textarea {
+    margin-bottom: 10px;
+  }
+  
+  h2{
+    padding-top: 150px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+  }
+
+  .form div{
+    margin: 10px;
+  }
+
+  .button{
+    margin: 10px;
+    width: 200px;
+    margin-left: 280px ;
+  }
+  
+  #form-persona{
+    padding-left: 590px;
+    padding-top: 150px;
+  }
+
+  #form-auto{
+    padding-left: 590px;
+    padding-top: 150px;
+  }
+  
+  #form-readonly{
+    display: none;
+    padding-left: 590px;
+    padding-top: 150px;
+  }
+
+  footer{
+    display: flex;
+    position: fixed;
+  }
+
+  .barra-lateral {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 300px; 
+    background-color: #69140f; 
+    z-index: -1; 
+  }
+
+  #form-auto button{
+    margin: 10px;
+    
+  }
+  

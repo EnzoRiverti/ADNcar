@@ -1,0 +1,106 @@
+li{
+    padding: 10px 0px;
+}
+ol{
+ margin: 0px 150px;
+}
+ul{
+    margin: 0px 150px;
+}
+h2{
+    font-weight: bold;
+    margin: 0px 100px;
+}
+
+h4{
+    font-weight: bold;
+}
+
+:root {
+    --primario: #aa0101;
+    --primarioOscuro: #69140f;
+    --secundario: ;
+    --grisOscuro: #666666;
+    --blanco: #FFF;
+    --negro: #000;
+
+    
+}
+
+main{
+    padding: 140px 60px 180px;
+}
+.reclamo-devolucion{
+    margin: 80px auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 300px; 
+}
+
+form {
+    width: 600px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+form h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #e63e11;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.barra-lateral {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 150px; 
+    background-color: var(--primarioOscuro); 
+    z-index: -1; 
+  }
+
+  .terminos-condiciones{
+    padding-bottom: 35px;
+  }
+
+ .devoluciones{
+    padding: 0px 150px;
+ }
+
+ .privacidad{
+    padding-bottom: 10px;
+ }
+
+
+
+
+  
