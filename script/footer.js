@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //creo las variables donde van a estar el footer y la altura de la pagina
     var footer = document.getElementById('footer');
     var windowHeight = window.innerHeight;
-    //Creo un evento que reacciona al scroll de la pagina
+    //creo un evento que reacciona al scroll de la pagina
     window.addEventListener('scroll', function() {
         
         var scroll = window.pageYOffset + windowHeight;

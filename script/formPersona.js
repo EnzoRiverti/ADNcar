@@ -123,7 +123,20 @@ function validar()
     }else{
         valido(servicio);
     }
-    
+
+    if(hora.value === ""){
+        invalido(hora);
+        esValido = false;
+    }else{
+        valido(hora);
+    }
+    if(fecha.value === ""){
+        invalido(fecha);
+        esValido = false;
+    }else{
+        valido(fecha);
+    }
+
 
     return esValido;
 }
@@ -186,9 +199,11 @@ function validarEmail(email) {
     var diaSemana = fechaSeleccionada.getDay();
   
     
-    if (diaSemana === 0 || diaSemana === 6) {
+    if (diaSemana === 0) {
       event.target.value = ''; 
-      alert('Por favor, selecciona una fecha de lunes a viernes.');
+      alert('Por favor, selecciona una fecha de lunes a sabado.');
+    }else if( diaSemana === 6){
+        alert('Por favor, selecciona una fecha de lunes a sabado.');
     }
   }
 
