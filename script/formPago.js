@@ -74,7 +74,7 @@ function validar() {
         valido(nroTarjeta);
     }
 
-    if (nombreTarget.value === "" || !validarNombreTitular(nombreTarget.value)) {
+    if (nombreTarget.value === "" || !validarString(nombreTarget.value)) {
         invalido(nombreTarget);
         esValido = false;
     } else {
@@ -188,12 +188,6 @@ function validarEmail(email) {
   }
   
 
-  function validarNombreTitular(nombre) {
-    // Expresión regular para el formato "E.M.Vasile"
-    const regex = /^[A-Z][.][A-Z][.][A-Z][a-zA-Z]+$/;
-    
-    return regex.test(nombre);
-  }
   
   
 
