@@ -111,6 +111,7 @@ function validar() {
     }
     if(esValido){
         mostrarAlert();
+        document.getElementById('fomulario').reset();
     }
 
     return esValido;

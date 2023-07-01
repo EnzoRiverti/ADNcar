@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/formContact.css">
     <script src="script/footer.js"></script>
+    <script src="script/formIndex.js"></script>
     <title>ADNcar</title>
 </head>
 
@@ -84,24 +85,24 @@
             </div>
         </section>
     </main>
-    <section class="formulario-contacto">
-        <form>
+    <section  class="formulario-contacto">
+        <form id="form">
             <h4>Consultanos</h4>
             <div>
                 <div>
-                    <label for="exampleFormControlInput1">Email</label>
+                    <label for="email">Email</label>
                 </div>
                 <div>
-                    <input type="email" id="exampleFormControlInput1" placeholder="nombre@gmail.com" required>
+                    <input type="email" id="email" placeholder="nombre@gmail.com" >
                 </div>
                 <div>
-                    <label for="exampleFormControlTextarea1">Detallanos tu consulta</label>
+                    <label for="textArea">Detallanos tu consulta</label>
                 </div>
                 <div>
-                    <textarea id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    <textarea id="textArea" rows="3" ></textarea>
                 </div>
                 <div>
-                    <button type="submit" >Enviar</button>
+                    <button type="button" onclick="validar()">Enviar</button>
                 </div>
             </div>
         </form>

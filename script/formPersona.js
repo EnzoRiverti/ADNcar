@@ -136,6 +136,9 @@ function validar()
     }else{
         valido(fecha);
     }
+    if(esValido){
+        document.getElementById('fomulario').reset();
+    }
 
 
     return esValido;

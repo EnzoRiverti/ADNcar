@@ -1,24 +1,9 @@
 function validar()
 {
-    var nombre = document.getElementById("nombre");
-    var apellido = document.getElementById("apellido");
+   
     var email = document.getElementById("email");
     var textArea = document.getElementById("textArea");
     esValido = true;
-    if(nombre.value === "" || !validarString(nombre.value)){
-        invalido(nombre);
-        esValido = false;
-    }else{
-        valido(nombre);
-    }
-
-    if(apellido.value === "" || !validarString(apellido.value)){
-        invalido(apellido);
-        esValido = false;
-    }else{
-        valido(apellido);
-    }
-    
     if(!validarEmail(email.value)){
         invalido(email);
         esValido = false;
@@ -33,11 +18,12 @@ function validar()
     }
     if(esValido){
         mostrarAlert();
-        document.getElementById('miFormulario').reset();
+        document.getElementById('form').reset();
     }
 
     return esValido;
 }
+
 
 function invalido(campo){
     campo.style.borderColor = "red";
@@ -59,4 +45,3 @@ function validarEmail(email) {
   function mostrarAlert() {
     alert("El reclamo fue enviado.");
   }
-  
